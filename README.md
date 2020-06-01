@@ -6,8 +6,9 @@ testing vagrant plugin development
 ## Install
 
 ```sh
-gem install bundle
-bundle install --path vendor/bundle
+gem install bundler
+bundle config set path ./vendor/bundle
+bundle install 
 bundle exec vagrant json-status
 ```
 

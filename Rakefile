@@ -1,2 +1,3 @@
+require "rubygems"
 require "bundler/gem_tasks"
-task :default => :spec
+Bundler::GemHelper.install_tasks
